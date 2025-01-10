@@ -1,0 +1,154 @@
+CRITICAL - 2025-01-10 08:05:52 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:06:50 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:07:18 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:30 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:32 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:33 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:33 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:34 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:34 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:34 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-01-10 08:10:35 --> ErrorException: Undefined variable $variable
+[Method: GET, Route: home/getUsers]
+in APPPATH\Views\user_list.php on line 11.
+ 1 APPPATH\Views\user_list.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $variable', 'C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php', 11)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\wamp64\\www\\mi_proyecto\\app\\Views\\user_list.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('user_list', [], true)
+ 5 APPPATH\Controllers\Home.php(16): view('user_list', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->getUsers()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
