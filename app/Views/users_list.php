@@ -19,7 +19,7 @@
     </script>
   <?php endif; ?>
 
-  <a href="<?= base_url('users/save') ?>" class="btn btn-primary mb-3">Crear Usuario</a>
+  <a href="<?= base_url(relativePath: 'users/save') ?>" class="btn btn-primary mb-3">Crear Usuario</a>
 
   <?php if (!empty($users) && is_array($users)): ?>
     <table class="table table-bordered">

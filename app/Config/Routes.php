@@ -18,3 +18,11 @@ $routes->post('users/save', "UserController::saveUser");
 $routes->post('users/save/(:num)', "UserController::saveUser/$1");
 $routes->get('users/delete/(:num)', 'UserController::delete/$1');
 
+
+
+$routes->get('login', 'AuthController::login');
+$routes->post('login/process', 'AuthController::processLogin');
+$routes->get('register', 'AuthController::register');
+$routes->post('register/process', "AuthController::processRegister");
+$routes->get('logout', "AuthController::logout");
+$routes->get('dashboard', "AuthController::dashboard");
