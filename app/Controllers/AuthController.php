@@ -2,39 +2,18 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\HTTP\ResponseInterface;
 use App\Models\UserModel;
 
 
-/**
- * AuthController class handles user authentication, including login, registration, and session management.
- * It provides functionality for validating user credentials, creating new accounts, and managing user sessions.
- * This controller ensures that users can securely log in and out, while also handling the creation of new user accounts.
- * 
- * 
- * @package  App\Controllers
- * @category Authentication
- */
 class AuthController extends BaseController
 {
 
-
-  /**
-   * Displays the registration form view.
-   * This method is responsible for rendering the view where users can register a new account.
-   * It doesn't handle any form submission or validation, it simply returns the view for the registration page.
-   *
-   * @return string The rendered view of the registration page.
-   */
-  public function register(): string
+  public function register()
   {
     return view('register');
   }
 
-  /**
-   * @return ResponseInterface|string
-   */
-  public function processRegister(): ResponseInterface|string
+  public function processRegister()
   {
     helper(['form', 'url']);
 
@@ -51,7 +30,7 @@ class AuthController extends BaseController
 
     $userModel = new UserModel();
     $userModel->save([
-      'name' => formatText($this->request->getPost('name')),
+      'name' => $this->request->getPost('name'),
       'email' => $this->request->getPost('email'),
       'password' => password_hash($this->request->getPost('password'), PASSWORD_DEFAULT),
       'rol' => 'Admin',
@@ -60,19 +39,13 @@ class AuthController extends BaseController
     return redirect()->to('/login')->with('success', 'Usuario registrado correctamente.');
   }
 
-  /**
-   * @return string
-   */
-  public function login(): string
+  public function login()
   {
     return view('login');
   }
 
 
-  /**
-   * @return ResponseInterface|string
-   */
-  public function processLogin(): ResponseInterface|string
+  public function processLogin()
   {
     helper(['form', 'url']);
     $session = session();
@@ -103,14 +76,9 @@ class AuthController extends BaseController
 
       return redirect()->to('/dashboard')->with('success', 'Inicio de sesión exitoso.');
     }
-
-    return redirect()->to('/login');
   }
 
-  /**
-   * @return ResponseInterface
-   */
-  public function logout(): ResponseInterface
+  public function logout()
   {
     $session = session();
     $session->destroy();
@@ -118,10 +86,7 @@ class AuthController extends BaseController
     return redirect()->to('/login')->with('success', 'Has cerrado sesión correctamente.');
   }
 
-  /**
-   * @return string
-   */
-  public function dashboard(): string
+  public function dashboard()
   {
     $session = session();
     $data = [
